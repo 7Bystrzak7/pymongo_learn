@@ -2,7 +2,7 @@
 
 import pymongo
 
-client = pymongo.MongoClient("ip", host, username="...", password="...")
+client = pymongo.MongoClient("ip", port, username="...", password="...")
 
 opk_list = ["opk1", "opk2", "opk3", "opk4", "opk5", "opk6", "opk7"]
 
